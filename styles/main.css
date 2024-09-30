@@ -1,10 +1,19 @@
+.discount{
+    background-color: grey;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 body{
-    background-color: beige;
-    padding: 1rem;
+    background-color: rgb(232, 237, 238);
+    padding: .25%;
 }
 
 #logo-wrapper{
-    /* text-align: center; */
+    text-align: center;
+    padding: 1rem;
 }
 
 #lg{
@@ -13,7 +22,18 @@ body{
   margin: auto;
 
 }
+#background{
+    position: relative;
+    width: 100%;
+    height: ;
+}
 
+
+.box{
+    padding: 16px;
+    background-color: white;
+    width: 100%;
+}
 .card{
     display: inline-block;
     margin: auto;
@@ -21,3 +41,4 @@ body{
     height: auto;
 
 }
+
