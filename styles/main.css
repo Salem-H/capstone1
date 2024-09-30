@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+    padding: 1rem;
+}
+
+#logo-wrapper{
+    /* text-align: center; */
+}
+
+#lg{
+  width: 10%;
+  display: block;
+  margin: auto;
+
+}
+
+.card{
+    display: inline-block;
+    margin: auto;
+    width: 40vw;
+    height: auto;
+
+}
