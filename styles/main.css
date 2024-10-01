@@ -1,39 +1,45 @@
+body{
+    background: url(./images/bg/webp);
+    
+}
 .discount{
     background-color: rgb(226, 193, 178);
     padding: 0.5rem;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 body{
+ 
     background-color: rgb(169, 197, 179);
     padding: .25%;
 }
 
-#logo-wrapper{
-    text-align: center;
+/* #logo-wrapper{
+    text-align:right;
     padding: 1rem;
-}
+} */
 
 #lg{
   width: 10%;
+  text-align: right;
   display: block;
   margin: auto;
 
 }
-.bg{
-    
+.bg {
+background-image: url(./);
     height: 50%;
     margin: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#background{
+/* #background{
     position: relative;
     width: 100%;
-}
+} */
 
 
 .box{
@@ -53,7 +59,7 @@ body{
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
