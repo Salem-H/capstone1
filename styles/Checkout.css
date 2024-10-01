@@ -1,31 +1,48 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     background-color: rgb(252, 252, 252);
+    text-align: 1rem
+    ;
   }
+table{
+    margin: 2rem;
+    padding: 3rem;  
+    width: 80%;
+}
+th, td {
+   background-color: #f1f1f1;
+    padding: 8px;
+}
 
+/* tr:nth-child(even){
+    background-color: #d6eeee;
+} */
+
+table, th,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
   * {
     box-sizing: border-box;
-    background-color:white ;
+   
   }
   
-  .row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  
-  .cart {
+
+  /* .cart {
     background-color: #f1f1f1;
     padding: 5px 20px 15px 20px;
     border: 1px  lightgrey;
     border-radius: 3px;
+  } */
+  label[for=text] {
+    margin: 1rem;
+    padding: 1rem;
   }
   
   input[type=text] {
     background-color: #f1f1f1;
     width: 100%;
-    margin-bottom: 20px;
+    margin: 1rem;
     padding: 1rem;
     border: 0cap;
     border: radius 2cap;
@@ -56,8 +73,8 @@ body {
     border: 1px solid lightgrey;
   }
   
-  span.price {
+  /* span.price {
     float: right;
     color: grey;
   }
-  
+   */

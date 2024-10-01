@@ -1,7 +1,3 @@
-body{
-    background: url(./images/bg/webp);
-    
-}
 .discount{
     background-color: rgb(226, 193, 178);
     padding: 0.5rem;
@@ -11,7 +7,10 @@ body{
 
 
 body{
- 
+    background-image: url(/images/bg.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20;
     background-color: rgb(169, 197, 179);
     padding: .25%;
 }
@@ -28,14 +27,13 @@ body{
   margin: auto;
 
 }
-.bg {
-background-image: url(./);
-    height: 50%;
-    margin: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#bg {
+    /* background-image: url(/images/bg.webp); */
+   background-size: cover;
+   
+    
 }
+
 /* #background{
     position: relative;
     width: 100%;
@@ -52,6 +50,7 @@ background-image: url(./);
     margin: auto;
     width: 40vw;
     height: auto;
+    min-height: 60vh;
 
 }
 
