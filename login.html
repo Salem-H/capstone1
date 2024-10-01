@@ -11,7 +11,7 @@
     crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/reg.css">
+    <link rel="stylesheet" href="styles/login.css">
 </head>
 <body id="registration-page">
     <header>
@@ -32,19 +32,69 @@
                             <a class="nav-link" href="products.html">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="register.html">Register</a>
+                            <a class="nav-link" href="registration.html">Register</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="login.html">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="checkout.html">Check-Out</a>
+                            <a class="nav-link" href="chechout.html">Check-Out</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+   
+
+    <div class="box">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!-- <script>
+// Get the modal
+var modal = document.getElementById('id01'); -->
+
+<!-- // When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script> -->
+
+<!-- </body>
+</html>
     <div class="register">
         <h1>Login</h1>
         <hr>
@@ -56,4 +106,4 @@
     </div>
 
 </body>
-</html>
+</html> -->

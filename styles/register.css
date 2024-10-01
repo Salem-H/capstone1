@@ -1,14 +1,14 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
     background-color: rgb(252, 252, 252);
   }
-  /* Add padding to containers */
+
   .container {
     padding: 16px;
     background-color: white;
   }
   
-  /* Full-width input fields */
+
   input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
@@ -17,29 +17,23 @@ body {
     border: none;
     background: #f1f1f1;
   }
-  
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  
-  /* Overwrite default styles of hr */
+
   hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
   }
-  /* Add a blue text color to links */
+
   a {
     color: dodgerblue;
   }
   
-  /* Set a grey background color and center the text of the "sign in" section */
-  .signin {
+ 
+.signin {
     background-color: #f1f1f1;
     text-align: center;
   }
  
-  .how label{
+.how label{
     display: block;
 }
 

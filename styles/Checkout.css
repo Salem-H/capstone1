@@ -1,11 +1,11 @@
 body {
-    font-family: Arial;
-    font-size: 17px;
-    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: rgb(252, 252, 252);
   }
-  
+
   * {
     box-sizing: border-box;
+    background-color: ;
   }
   
   .row {
@@ -15,46 +15,26 @@ body {
     flex-wrap: wrap;
   }
   
-  .col-25 {
-    -ms-flex: 25%;
-    flex: 25%;
-  }
-  
-  .col-50 {
-    -ms-flex: 50%;
-    flex: 50%;
-  }
-  
-  .col-75 {
-    -ms-flex: 75%;
-    flex: 75%;
-  }
-  
-  .col-25,
-  .col-50,
-  .col-75 {
-    padding: 0 16px;
-  }
-  
   .container {
-    background-color: #f2f2f2;
+    background-color: #f1f1f1;
     padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
+    border: 1px  lightgrey;
     border-radius: 3px;
   }
   
   input[type=text] {
+    background-color: #f1f1f1;
     width: 100%;
     margin-bottom: 20px;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    padding: 1rem;
+    border: 0cap;
+    border: radius 2cap;
   }
   
-  label {
+  /* label {
     margin-bottom: 10px;
     display: block;
-  }
+  } */
   
   .btn {
     background-color: dodgerblue;
