@@ -5,6 +5,8 @@ body {
    .container {
     background-color: white;
     padding: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
     width: 600px;
@@ -60,4 +62,9 @@ input{
 
 input[type=radio]{
     display: inline-block;
+}
+body{
+  background-image: url(/images/bg.webp);
+  background-repeat: no-repeat;
+  background-size: 200vh 100vw;
 }

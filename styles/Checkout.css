@@ -5,9 +5,10 @@ body {
     ;
   }
 table{
-    margin: 2rem;
-    padding: 3rem;  
-    width: 80%;
+    margin: 1rem;
+    margin-left: 18rem;
+    padding: 2rem;  
+    width: 40%;
 }
 th, td {
    background-color: #f1f1f1;
@@ -46,10 +47,6 @@ table, th,td {
     -ms-flex: 50%;
     flex: 25%;
   }
-  /* label {
-    margin-bottom: 10px;
-    display: block;
-  } */
   
   .btn {
     background-color: dodgerblue;
@@ -68,3 +65,9 @@ table, th,td {
     border: 1px solid lightgrey;
   }
   
+  body{
+    background-image: url(/images/bg.webp);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    margin-top: 2rem ;
+  }
