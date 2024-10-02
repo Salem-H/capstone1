@@ -1,14 +1,16 @@
 .discount{
-    background-color: rgb(226, 193, 178);
+    background-color: rgba(226, 193, 178, 0.546);
     padding: 0.5rem;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+main{
+  background-color: #d8f6a7b9;
+}
 #home-page{
     background-image: url(/images/bg.webp);
     background-repeat: no-repeat;
-    background-size:100vw 43vh;
+    background-size:100vw 100vh;
     height: 100%;
     background-color: rgb(197, 208, 125);
     margin: 0;
@@ -20,7 +22,7 @@
 }
 
 .navbar {
-  background-color: #33333388;
+  background-color: #333333b0;
   overflow: hidden;
 }
 
@@ -45,7 +47,7 @@
 
 #lg{
   width: 25%;
-  opacity: 0.8;
+  opacity: 0.7;
   display: block;
   margin: auto;
 
@@ -59,4 +61,33 @@
 
 .navbar img {
   height: 60px; /* Adjust the size of the logo */
+}
+.list{
+  width: fit-content;
+  margin: auto;
+}
+
+
+.footer {
+  background-color: #3333338;
+  color:black ;
+  text-align:center;
+  padding:20px 0;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #04AA6D;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 5px 0;
 }

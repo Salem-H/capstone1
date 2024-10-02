@@ -14,10 +14,6 @@ th, td {
     padding: 8px;
 }
 
-/* tr:nth-child(even){
-    background-color: #d6eeee;
-} */
-
 table, th,td {
     border: 1px solid white;
     border-collapse: collapse;
@@ -26,14 +22,13 @@ table, th,td {
     box-sizing: border-box;
    
   }
-  
-
-  /* .cart {
-    background-color: #f1f1f1;
-    padding: 5px 20px 15px 20px;
-    border: 1px  lightgrey;
-    border-radius: 3px;
-  } */
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
   label[for=text] {
     margin: 1rem;
     padding: 1rem;
@@ -73,8 +68,3 @@ table, th,td {
     border: 1px solid lightgrey;
   }
   
-  /* span.price {
-    float: right;
-    color: grey;
-  }
-   */

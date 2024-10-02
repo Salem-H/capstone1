@@ -2,13 +2,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     background-color: rgb(252, 252, 252);
   }
-
-  .container {
-    padding: 16px;
+   .container {
     background-color: white;
-  }
-  
-
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
   input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;

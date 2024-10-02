@@ -16,12 +16,15 @@ input[type=text], input[type=password] {
 button {
   background-color: dodgerblue;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 12px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 3px;
   border: none;
   cursor: pointer;
-  width: 100%;
+  font-size: 17px;
 }
+
 
 button:hover {
   opacity: 0.8;
@@ -34,9 +37,7 @@ button:hover {
   background-color: #f44336;
 }
 
-/* .box {
-  padding: 16px;
-} */
+
 
 span.psw {
   float: right;
