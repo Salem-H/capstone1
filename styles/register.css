@@ -4,9 +4,13 @@ body{
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   background-color: black;
-  /* background-blend-mode: ; */
-  background-
   margin-top: 2rem ;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0.8; 
+  background-color: #333333b0 !important; 
+  
 }
 
    .container {
@@ -18,7 +22,7 @@ body{
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
     width: 600px;
 }
-  input[type=text], input[type=password] {
+  .container input[type=text],.container input[type=password] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -36,7 +40,7 @@ body{
     color: dodgerblue;
   }
 
-  .btn {
+ .container .btn {
     background-color: dodgerblue;
     color: white;
     padding: 12px;

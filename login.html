@@ -17,7 +17,7 @@
 <header>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-          </a>
+        <img src="/images/logo2.jpg" alt="" class="navlogo">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
               aria-expanded="false" aria-label="Toggle navigation">
@@ -41,15 +41,14 @@
                       <a class="nav-link" href="checkout.html">Check-Out</a>
                   </li>
               </ul>
-              <div class="search"> 
+              <!-- <div class="search"> 
                   <input type="text" placeholder="Search...">
                   <button class="btn btn-outline-success" type="submit">Search</button>
-              </div>
+              </div> -->
           </div>
       </div>
   </nav>
 </header>
-     </div> 
 
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
@@ -57,10 +56,10 @@
 <div id="id01" class="modal">
   <form class="modal-content animate" action="/action_page.php" method="post">
     <div class="box">
-      <label for="uname"><b>Username</b></label>
+      <label><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required minlength="8" maxlength="50">
 
-      <label for="psw"><b>Password</b></label>
+      <label><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required minlength="8" maxlength="50"> 
       <button type="submit">Login</button>
       <label>

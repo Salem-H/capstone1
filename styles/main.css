@@ -1,11 +1,16 @@
 body{
   font-size: 1.5vh;
 }
+.navlogo{
+  width: 5%;
+}
 .navbar {
     background-color: #333333b0;
     overflow: hidden;
   }
-  
+ .navbar-expand-lg-bg-body-tertiary{
+  background-color: #333333;
+ }
   .navbar a {
     /* background-color: #333333b0; */
     float: left;

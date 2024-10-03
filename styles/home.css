@@ -3,14 +3,25 @@
     padding: 0.5rem;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+p{
+  font-size:medium;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+  font-size: small;
 }
 main{
   background-color: #d8f6a7b9;
+  padding: 1rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
 #home-page{
     background-image: url(/images/bg.webp);
     background-repeat: no-repeat;
-    background-size:100vw 120vh;
+    background-size:100vw 160vh;
     height: 100%;
     background-color: rgb(197, 208, 125);
     margin: 0;
@@ -61,8 +72,8 @@ main{
     margin: auto;
   }
   .footer {
-    background-color: rgba(128, 128, 128, 0.5);
-    color: black;
+    background-color: #333333b0;
+    color: white;
     text-align: center;
     padding: 20px 0;  
     position: relative;

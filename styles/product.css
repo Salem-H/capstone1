@@ -1,6 +1,10 @@
+.bg-body-tertiary {
+  --bs-bg-opacity: 0.8; 
+  background-color: #333333b0 !important; 
+}
 .card{
     display: inline-block;
-    min-height: 40vh;
+    min-height: 50vh;
 }
 .card-img-top{
 width: 16rem;
@@ -18,9 +22,11 @@ object-fit: contain;
 }
 .btn-primary{
   background-color: dodgerblue;
+
 }
 
 body{
+  text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(/images/bg.webp);
   background-repeat: no-repeat;

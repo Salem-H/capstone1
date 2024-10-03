@@ -6,6 +6,11 @@ body{
   margin-top: 2rem ;
 }
 
+.bg-body-tertiary {
+  --bs-bg-opacity: 0.8; 
+  background-color: #333333b0 !important; 
+}
+
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -78,3 +83,26 @@ span.psw {
   cursor: pointer;
 }
 
+.footer {
+  background-color: #333333b0;
+  color: white;
+  text-align: center;
+  padding: 20px 0;  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: dodgerblue;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 5px 0;
+}
