@@ -11,21 +11,47 @@
     crossorigin="anonymous"></script>
 
    <link rel="stylesheet" href="/styles/main.css"> 
-   <link rel="stylesheet" href="/styles/fot.css">
+   <link rel="stylesheet" href="/styles/checkout.css">
 </head>
-<body>
-    <div class="navbar">
-        <a href="index.html" > Home </a>
-        <a href="products.html"> Products </a>
-        <a href="registration.html"> Register </a>
-        <a href="login.html"> Login </a>
-        <a href="chechout.html" class="active"> Check-Out</a>
-        <div class="search"> 
-            <input type="text" placeholder="Search...">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </div>
-     </div>
 
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="checkout.html">Check-Out</a>
+                    </li>
+                </ul>
+                <div class="search"> 
+                    <input type="text" placeholder="Search...">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
     <div class="container">
         <h2>Checkout</h2>
 
@@ -86,13 +112,14 @@
         </div>
 
         <!-- Checkout Form -->
+         <!-- Payment Information -->
         <form action="/submit-checkout" method="post">
             <h3>Billing Information</h3>
             <label for="name">Full Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required >
 
             <label for="phone">Phone Number</label>
             <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
@@ -130,6 +157,15 @@
 
             <button type="submit" class="checkout-btn">Complete Order</button>
         </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
     </div>
 
 </body>

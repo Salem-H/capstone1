@@ -10,7 +10,7 @@ main{
 #home-page{
     background-image: url(/images/bg.webp);
     background-repeat: no-repeat;
-    background-size:100vw 100vh;
+    background-size:100vw 120vh;
     height: 100%;
     background-color: rgb(197, 208, 125);
     margin: 0;
@@ -51,6 +51,10 @@ main{
     background-color: #ddd;
     color: black;
   }
+  .bg-body-tertiary {
+     --bs-bg-opacity: 0.8; 
+     background-color: #333333b0 !important; 
+}
   
   .list{
     width: fit-content;
@@ -67,7 +71,7 @@ main{
 }
 
   .footer a {
-    color: #04AA6D;
+    color: dodgerblue;
     text-decoration: none;
     margin: 0 15px;
   }

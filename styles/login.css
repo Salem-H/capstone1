@@ -1,7 +1,10 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    background-color: rgb(252, 252, 252);
-  }
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(/images/bg.webp);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  margin-top: 2rem ;
+}
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -75,9 +78,3 @@ span.psw {
   cursor: pointer;
 }
 
-body{
-  background-image: url(/images/bg.webp);
-  background-repeat: no-repeat;
-  background-size: 100vw 100vh;
-  margin-top: 2rem ;
-}

@@ -1,15 +1,29 @@
 .card{
     display: inline-block;
-    margin: auto;
-    width: 40vw;
-    height: auto;
-    min-height: 60vh;
-
+    min-height: 40vh;
+}
+.card-img-top{
+width: 16rem;
+height: 18rem;
+object-fit: contain;
 }
 
-* {box-sizing: border-box;}
+.card-body{
+  text-align: center;
+  color: black;
+}
 
-body {
-  margin: 0;
+.minilogo{
+  width: 30%;
+}
+.btn-primary{
+  background-color: dodgerblue;
+}
+
+body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(/images/bg.webp);
+  background-repeat: no-repeat;
+  background-size: 150vw 200vh;
+  margin-top: 2rem ;
 }

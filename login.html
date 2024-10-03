@@ -13,18 +13,43 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/login.css">
 </head>
-<body id="registration-page">
-    <div class="navbar">
-        <a href="index.html" > Home </a>
-        <a href="products.html"> Products </a>
-        <a href="registration.html"> Register </a>
-        <a href="login.html" class="active"> Login </a>
-        <a href="chechout.html"> Check-Out</a>
-        <!-- <div class="search"> 
-          <input type="text" placeholder="Search...">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-      </div> -->
-     </div>
+
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="products.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="registration.html">Register</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="checkout.html">Check-Out</a>
+                  </li>
+              </ul>
+              <div class="search"> 
+                  <input type="text" placeholder="Search...">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+              </div>
+          </div>
+      </div>
+  </nav>
+</header>
+     </div> 
 
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
@@ -33,10 +58,10 @@
   <form class="modal-content animate" action="/action_page.php" method="post">
     <div class="box">
       <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <input type="text" placeholder="Enter Username" name="uname" required minlength="8" maxlength="50">
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required> 
+      <input type="password" placeholder="Enter Password" name="psw" required minlength="8" maxlength="50"> 
       <button type="submit">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
@@ -47,5 +72,16 @@
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
+
   </form>
+   
+</div>
+
+<div class="footer">
+  <p>&copy; 2024 Your Company. All rights reserved.</p>
+  <p>Follow us on:
+      <a href="https://facebook.com" target="_blank">Facebook</a> |
+      <a href="https://twitter.com" target="_blank">Twitter</a> |
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+  </p>
 </div>

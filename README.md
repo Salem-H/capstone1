@@ -43,3 +43,4 @@ Contact
     Email - salemkassal@gmail.com
     Phone number - 470 909 6017
 
+![Alt text](images/example.png)

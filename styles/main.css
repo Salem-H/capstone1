@@ -1,9 +1,13 @@
- .navbar {
+body{
+  font-size: 1.5vh;
+}
+.navbar {
     background-color: #333333b0;
     overflow: hidden;
   }
   
   .navbar a {
+    /* background-color: #333333b0; */
     float: left;
     display: block;
     color: #f2f2f2;
@@ -18,10 +22,35 @@
   }
   
   .navbar a.active {
-    background-color: #ddd;
+    background-color: #181111;
     color: white;
   }
 
 .btn {
   background-color: #ddd;
 }
+
+.footer {
+  background-color: #333333;
+  color: black;
+  text-align: center;
+  padding: 20px 0;  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: dodgerblue;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+

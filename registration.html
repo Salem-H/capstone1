@@ -12,19 +12,43 @@
 
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/register.css">
-
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registration.html">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="checkout.html">Check-Out</a>
+                        </li>
+                    </ul>
+                    <div class="search"> 
+                        <input type="text" placeholder="Search...">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
   
-    <div class="navbar">
-        <a href="index.html"> Home </a>
-        <a href="products.html"> Products </a>
-        <a href="registration.html"  class="active"> Register </a>
-        <a href="login.html"> Login </a>
-        <a href="chechout.html"> Check-Out</a>
-        <!-- <div class="search"> 
-            <input type="text" placeholder="Search...">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </div> -->
-     </div>
      <!-- Registration Form -->
     <div class="container">
             <div class="box">
@@ -33,16 +57,16 @@
 
               <hr>
               <label for="username"><b>User Name</b></label><br>
-              <input type="text" placeholder="Enter Name" name="email" id="username" required><br>
+              <input type="text" placeholder="Enter Name" name="username" id="username" required minlength="4" maxlength="50"><br>
 
               <label for="email"><b>Email</b></label><br>
-              <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+              <input type="text" placeholder="Enter Email" name="email" id="email" required ><br>
           
               <label for="psw"><b>Password</b></label><br>
-              <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br>
+              <input type="password" placeholder="Enter Password" name="psw" id="psw" required minlength="8" maxlength="50"><br>
           
               <label for="psw-confirm"><b>Confirm Password</b></label><br>
-              <input type="password" placeholder="Confirm Password" name="psw-confirm" id="psw-confirm" required>
+              <input type="password" placeholder="Confirm Password" name="psw-confirm" id="psw-confirm" required minlength="8" maxlength="50">
               <hr>
           
             </div>
@@ -64,5 +88,13 @@
             </div>
             <input class="btn btn-primary" type="submit" value="Register">
          
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
     </div>
 </html>
