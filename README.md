@@ -1,8 +1,12 @@
 # capstone1 
-GiftsATL
+#GiftsATL
 
 This project includes diffrent pages. It guides a customer throught out the site.
-A brief description of your HTML project. Explain what it is, what it does, and its purpose.
+
+##Home page
+This page is the fist landing page for the website. The navigater bar will be 
+
+![Alt text](/images/README.image/homepage.jpg)
 
 
 Describe the project in more detail. What is the goal of the website? What problem does it solve, or what use case does it serve?
@@ -29,8 +33,6 @@ cd project-name
 Open index.html in your browser.
 If your project requires additional software (e.g., a web server), explain how to install and set that up.
 
-Usage
-Explain how to use the project. Provide examples, screenshots, or even a demo link if applicable. This section should help users navigate and understand the different parts of the project.
 
 Technologies Used
 

@@ -4,7 +4,7 @@
 }
 .card{
     display: inline-block;
-    min-height: 50vh;
+    min-height: 40vh;
 }
 .card-img-top{
 width: 16rem;
