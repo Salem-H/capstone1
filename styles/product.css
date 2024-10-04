@@ -31,6 +31,6 @@ body{
   background-image: url(/images/bg.webp);
   opacity: 90%;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 200vh 200vw;
   margin-top: 2rem ;
 }
