@@ -3,6 +3,7 @@ body{
   background-image: url(/images/bg.webp);
   background-repeat: no-repeat;
   background-size: auto;
+  opacity: 20%Z;
   margin-top: 2rem ;
 }
 

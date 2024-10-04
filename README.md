@@ -1,7 +1,7 @@
 # capstone1 
 # GiftsATL
 
-This project includes diffrent pages. It guides a customer throught out the site.
+This website is designed with a seamless user experience in mind, allowing customers to browse an exquisite selection of floral arrangements for every occasion. Whether it's a birthday, anniversary, or just a gesture of love, we offer a variety of bouquets, plants, and gift baskets. With an easy-to-use interface, secure payment options, and real-time delivery tracking, our service ensures that your flowers arrive fresh and on time, making moments unforgettable.
 
 ##  Home page
 This page is the fist landing page for the website. It includes the some description about GiftsATL and a list of the services. It also has another bar which will lead us to About and Contact us. This page also includes social media links where customers can follow.
