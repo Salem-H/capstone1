@@ -51,9 +51,8 @@
     </nav>
 </header>
 
-    <div class="container">
-        <h2>Checkout</h2>
-
+    <!-- <div class="containercart"> -->
+     <div class="container">  
         <!-- Order Summary Table -->
         <div class="order-summary">
             <h3>Order Summary</h3>
@@ -109,55 +108,82 @@
                 </tfoot>
             </table>
         </div>
-
-        <!-- Checkout Form -->
-         <!-- Payment Information -->
-        <form action="/submit-checkout" method="post">
-            <h3>Billing Information</h3>
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required >
-
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-
-            <label for="address">Shipping Address</label>
-            <input type="text" id="address" name="address" placeholder="Enter your shipping address" required>
-
-            <label for="city">City</label>
-            <input type="text" id="city" name="city" placeholder="Enter your city" required>
-
-            <label for="state">State/Province</label>
-            <input type="text" id="state" name="state" placeholder="Enter your state" required>
-
-            <label for="zip">Postal Code</label>
-            <input type="number" id="zip" name="zip" placeholder="Enter your postal code" required>
-
-            <label for="country">Country</label>
-            <select id="country" name="country" required>
-                <option value="">Select your country</option>
-                <option value="USA">United States</option>
-                <option value="Canada">Canada</option>
-                <option value="UK">United Kingdom</option>
-            </select>
-
-            <!-- Payment Information -->
-            <h3>Payment Information</h3>
-            <label for="card-number">Card Number</label>
-            <input type="number" id="card-number" name="card-number" placeholder="Enter your card number" required>
-
-            <label for="exp-date">Expiry Date</label>
-            <input type="text" id="exp-date" name="exp-date" placeholder="MM/YY" required>
-
-            <label for="cvc">CVC</label>
-            <input type="number" id="cvc" name="cvc" placeholder="Enter your card's CVC" required>
-
-            <button type="submit" class="checkout-btn">Complete Order</button>
-        </form>
-    </div>
-
+        <hr>
+<!-- Checkout form -->
+       
+            <form action="">
+             <div class="row">
+                 <div class="col">
+<!-- Billing Information form -->
+                     <h3 class="title">Billing Information</h3>
+                         <div class="inputbox">
+                             <span>Full name :</span>
+                             <input type="text" placeholder="Enter your full name">
+                         </div>
+                         <div class="inputbox">
+                             <span>Email :</span>
+                             <input type="text" placeholder="Enter your full name">
+                         </div>
+                         <div class="inputbox">
+                             <span>Phone number :</span>
+                             <input type="text" placeholder="Enter your phone number ">
+                         </div>
+                         <div class="inputbox">
+                             <span>Address :</span>
+                             <input type="text" placeholder="Enter your address">
+                         </div>
+                         <div class="inputbox">
+                             <span>City :</span>
+                             <input type="text" placeholder="Enter your city">
+                         </div>
+                         <div class="flex">
+                             <div class="inputbox">
+                             <span>State :</span>
+                             <select id="country" name="country" required>
+                                 <option value="">Select your country</option>
+                                 <option value="USA">United States</option>
+                                 <option value="Canada">Canada</option>
+                                 <option value="UK">United Kingdom</option>
+                             </select>
+                             </div>
+                             <div class="inputbox">
+                             <span>Zip code :</span>
+                             <input type="text" placeholder="">
+                             </div>
+                     </div>
+                 </div>
+                 <div class="col">
+ <!-- Payment Information form                    -->
+                     <h3 class="title">Payment</h3>
+                         <div class="inputbox">
+                             <span>Name on card :</span>
+                             <input type="text" placeholder="Enter your card number">
+                         </div>
+                         <div class="inputbox">
+                             <span>Credit Card number :</span>
+                             <input type="text" placeholder="1111-2222-3333-4444 ">
+                         </div>
+                         <div class="inputbox">
+                             <span>Exp Month:</span>
+                             <input type="text" placeholder="">
+                         </div>
+                         <div class="flex">
+                             
+                             <div class="inputbox">
+                                 <span>Exp Year:</span>
+                                 <input type="number" placeholder="">
+                             </div>
+                             <div class="inputbox">
+                                 <span>CVC:</span>
+                                 <input type="number" placeholder="">
+                             </div>
+                     </div>
+                 </div>
+             </div>
+          <input type="submit" value="Complete Order" class="submit-btn">
+            </form>
+          </div>
+          
     <!-- <div class="footer">
         <p>&copy; 2024 Your Company. All rights reserved.</p>
         <p>Follow us on:
