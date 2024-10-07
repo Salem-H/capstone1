@@ -19,7 +19,7 @@ main{
   margin-right: 7rem;
 }
 #home-page{
-    background-image: url(/images/bg.webp);
+    background-image: url(./images/bg.webp);
     background-repeat: no-repeat;
     background-size:100vw 160vh;
     height: 100%;
