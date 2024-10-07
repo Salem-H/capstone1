@@ -10,10 +10,10 @@ body{
   --bs-bg-opacity: 0.8; 
   background-color: #333333b0 !important; 
 }
-.navbar2 {
+/* .navbar2 {
   background-color: #333333b0;
   overflow: hidden;
-}
+} */
 
 h3{
   text-align: center;
@@ -74,7 +74,7 @@ form input[type="number"], form select {
 }
 
 .submit-btn:hover {
-  background-color: lightblue;
+  background-color: rgb(96, 173, 249);
 }
 
 
