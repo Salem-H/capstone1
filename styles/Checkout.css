@@ -11,6 +11,10 @@ body{
   --bs-bg-opacity: 0.8; 
   background-color: #333333b0 !important; 
 }
+.navbar2 {
+  background-color: #333333b0;
+  overflow: hidden;
+}
 
 h3{
   text-align: center;
