@@ -22,7 +22,7 @@ object-fit: contain;
 }
 .btn-primary{
   background-color: dodgerblue;
-
+  margin: 0.5rem;
 }
 
 body{
